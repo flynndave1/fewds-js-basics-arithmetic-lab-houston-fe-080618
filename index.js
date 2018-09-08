@@ -12,4 +12,4 @@ var ageIsValid = Number.isInteger(currentAge);
 
 randomNumber =   Math.random() * 20 ;
 randomInteger = randomNumber  + 1  ;
-randomUserID  =  randomInteger  +  
+randomUserID  =  randomInteger  +  1000000000 ;
