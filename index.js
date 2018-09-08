@@ -10,6 +10,6 @@ You should NOT try to redefine any of the above variables.
 const  newID  = oldID +  1000000000 ;
 var ageIsValid = Number.isInteger(currentAge);
 
-randomNumber =   Math.random() * 20 ;
+randomNumber =  Math.floor( Math.random() * 20) ;
 randomInteger = randomNumber  + 1  ;
 randomUserID  =  randomInteger  +  1000000000 ;
